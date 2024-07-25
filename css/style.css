@@ -1,0 +1,150 @@
+.warna1 {
+  background-color: #5f6f65;
+}
+
+.warna2 {
+  background-color: #6c946f;
+}
+
+.warna3 {
+  background-color: #399918;
+}
+
+.warna4 {
+  background-color: #ffa823;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/background.png);
+  background-size: cover; /* Pastikan gambar menutupi seluruh elemen */
+  background-position: center; /* Posisi gambar di tengah */
+}
+
+.hightlighted-kategori {
+  height: 300px;
+  border-radius: 5%;
+  transition: transform 0.3s ease;
+}
+
+.kategori-kambing {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/4NF8QFzgA5Aghn4xad9L.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kategori-ayam {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/FNXQXI2A8YAZVtHSBu35.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kategori-minuman {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/gQ6tkN1XgcHQleG0sNtH.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hightlighted-kategori a {
+  text-decoration: none;
+  color: white;
+}
+
+.hightlighted-kategori a:hover {
+  text-decoration: none;
+  color: #ffa823;
+  transform: scale(1.05);
+}
+
+.text-harga {
+  font-size: 20px;
+  color: #6c946f;
+}
+
+.image-box {
+  height: 300px;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-warna4-text-white:hover {
+  color: #ffb200;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer .socials {
+  background-color: #c9dabf;
+  text-align: center;
+  padding: 3rem; /* Sesuaikan padding jika perlu */
+  margin: 0;
+  min-height: 10rem; /* Ganti dengan tinggi minimum yang diinginkan */
+}
+
+footer .credit {
+  background-color: #808d7c;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: black; /* Warna teks link putih */
+  margin: 1rem; /* Jarak sekitar link */
+  display: inline-block; /* Pastikan margin berfungsi dengan baik */
+}
+
+footer .socials a:hover {
+  color: #6c946f; /* Warna teks saat hover */
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+/* Ukuran font default */
+body {
+  font-size: 16px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Ukuran font default */
+body {
+  font-size: 16px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.banner-produk {
+  height: 35vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/background.png);
+  background-size: cover; /* Pastikan gambar menutupi seluruh elemen */
+  background-position: center; /* Posisi gambar di tengah */
+  background-position: 50% 40%;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
